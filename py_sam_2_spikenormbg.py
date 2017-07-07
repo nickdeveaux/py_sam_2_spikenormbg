@@ -37,7 +37,6 @@ def py_sam_2_spikenormbg(folder=None, spike_suffix='dm6', input_type = 'sam', en
     import pandas as pd
     from pybedtools.contrib.bigwig import bedgraph_to_bigwig
     import matplotlib.pyplot as plt
-    %matplotlib inline
     
     from datetime import datetime
     startTime = datetime.now()
